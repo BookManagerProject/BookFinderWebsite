@@ -21,7 +21,7 @@ public class PreferitiDB extends DatabaseConnection {
                 "ORDER BY occurrences DESC");
         ArrayList<Book> books = new ArrayList<>();
         while (result.next()) {
-            books.add(new Book(result.getString("isbn"), result.getString("title"), result.getDate("publishedDate"), result.getString("description"), result.getString("image"), result.getString("autori")));
+            books.add(new Book(result.getString("isbn"), result.getString("title"), result.getDate("publishedDate"), result.getString("description"), result.getString("image"), result.getString("autori"), result.getInt("occurrences")));
         }
         return books;
     }

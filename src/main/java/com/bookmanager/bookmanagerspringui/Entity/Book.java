@@ -10,8 +10,9 @@ public class Book {
     private String description;
     private String image;
     private String autori;
+    private int counter;
 
-    public Book(String isbn, String title, Date publishedDate, String description, String image, String autori) {
+    public Book(String isbn, String title, Date publishedDate, String description, String image, String autori, int counter) {
         this.isbn = isbn;
         this.title = title;
         this.publishedDate = publishedDate;
@@ -22,7 +23,9 @@ public class Book {
         }
         this.image = image;
         this.autori = autori;
+        this.counter = counter;
     }
+
 
     public String getIsbn() {
         return isbn;
@@ -47,6 +50,10 @@ public class Book {
 
     public String getAutori() {
         return autori;
+    }
+
+    public int getCounter() {
+        return counter;
     }
 
     @Override
