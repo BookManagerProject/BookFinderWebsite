@@ -1,4 +1,4 @@
-# 📚 BookFinderWebSite 🤖
+# 📚 BookFinderWebSite 🌐
 
 ## Descrizione
 
@@ -83,7 +83,7 @@ Il progetto contiene tutto il necessario per il funzionamento
 Per utilizzare basta clonare il progetto con git:
 
 ```
-git clone XX
+git clone https://github.com/BookManagerProject/BookManagerWebsite.git
 ```
 
 Utilizzare una qualsiasi IDE per lo sviluppo e test (Si consiglia IntelliJ IDEA)
