@@ -86,4 +86,7 @@ Per utilizzare basta clonare il progetto con git:
 git clone https://github.com/BookManagerProject/BookManagerWebsite.git
 ```
 
+Configurare la stringa JBDC per la connessione ad Azure SQL nel
+file [DefaultConfig](https://github.com/BookManagerProject/BookFinderWebsite/blob/master/src/main/java/com/bookmanager/bookmanagerspringui/Costant/DefaultConfig.java)
+
 Utilizzare una qualsiasi IDE per lo sviluppo e test (Si consiglia IntelliJ IDEA)
