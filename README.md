@@ -83,7 +83,7 @@ Il progetto contiene tutto il necessario per il funzionamento
 Per utilizzare basta clonare il progetto con git:
 
 ```
-git clone https://github.com/BookManagerProject/BookManagerWebsite.git
+git clone https://github.com/BookManagerProject/BookFinderWebsite.git
 ```
 
 Configurare la stringa JBDC per la connessione ad Azure SQL nel
